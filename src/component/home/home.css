@@ -1,0 +1,94 @@
+.main-home {
+  /* background-color: rgb(15, 139, 139); */
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  height: 80vh;
+  width: 80%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.card-1 {
+  height: 40vh;
+  width: 100%;
+  background-image: url(group-tropical-green-leaves.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-2 {
+  display: flex;
+  gap: 60px;
+}
+.box1 {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  /* background-color: aqua; */
+}
+.box1 h1 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+.box1 button {
+  padding: 13px 25px;
+  width: 180px;
+  background-color: #416653;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.box1 button:hover {
+  background-color: #416653;
+  transform: translateY(-2px);
+}
+.box1 p{
+    line-height: 25px;
+}
+.box2 {
+  /* background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  border: 8px solid #f6f6f6;
+  background-image: url(https://i.pinimg.com/736x/d6/21/23/d62123ead9292fe138926b901c78969e.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box3 {
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  border: 8px solid #f6f6f6;
+  background-image: url(https://i.pinimg.com/1200x/39/80/37/3980372a5a1f0862c51a81b5976d3bbb.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box4 {
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  border: 8px solid #f6f6f6;
+  background-image: url(https://i.pinimg.com/1200x/2c/3c/8c/2c3c8c13e583f38e2d51ea15334b565a.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
